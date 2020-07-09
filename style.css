@@ -1,0 +1,188 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background: #d3f0d3;
+  padding-top: 13px;
+}
+.banner {
+  background: #d3f0d3;
+  padding: 10px 0px 20px 0px;
+}
+.banner-items {
+  height: 480px;
+  /*margin: 0px 30px;*/
+}
+.logo img {
+  width: 198.07px;
+  height: 59px;
+  margin-left: 15px;
+}
+
+.banner h6 {
+  color: tomato;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.banner h1 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.banner h1 .highlight {
+  color: rgb(9, 146, 39);
+}
+.banner p {
+  color: rgb(92, 66, 62);
+  padding-bottom: 10px;
+}
+
+.nav-item {
+  color: rgb(5, 5, 5);
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sign-up {
+  background-color: #21b573;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.feature-1,
+.feature-3,
+.feature-4 {
+  height: 220px;
+  margin: 30px 0px;
+  background: #f7fffb;
+  border-radius: 10px;
+}
+.feature-2 {
+  height: 220px;
+  margin: 30px 0px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px gray;
+}
+.feature-items h5 {
+  font-weight: 800;
+}
+.icon {
+  width: 66px;
+  margin-bottom: 20px;
+  margin-left: 27px;
+}
+.courses {
+  margin: 70px 0px;
+}
+.courses h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.buy-course {
+  background-color: #21b573;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-left: -8px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.card-title {
+  font-weight: 700;
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  padding: 30px 15px;
+}
+.card-footer {
+  padding: 0px 10px;
+  background: #ffffff;
+  border-top: none;
+}
+.card-footer img {
+  width: 50px;
+}
+.card-footer p {
+  font-size: small;
+}
+
+.testimonial {
+  margin: 80px 0px;
+}
+.testimonial h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.testimonial img {
+  width: 120px;
+}
+.testimonial-text {
+  width: 580px;
+  padding-left: 50px;
+}
+.contact {
+  width: 100%;
+  height: 420px;
+  background: #d3f0d3;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.contact-form {
+  width: 70%;
+}
+.contact h6 {
+  color: gray;
+}
+input {
+  margin-bottom: 10px;
+}
+.submit {
+  background-color: #21b573;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+footer {
+  background: rgb(5, 5, 5);
+  color: #ffffff;
+}
+.footer-top {
+  padding-top: 50px;
+}
+.footer-top p {
+  padding-left: 100px;
+}
+ul h6 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+ul li {
+  font-weight: normal;
+  color: #d3dbd7;
+}
+.copyright {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .feature {
+    margin-top: 215px;
+  }
+}
